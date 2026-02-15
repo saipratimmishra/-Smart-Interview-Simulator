@@ -81,6 +81,7 @@ endBtn.onclick=()=>{
 }
 
 rstBtn.onclick=()=>{
+     document.getElementById("sendBtn").disabled = true;
      startBtn.style="display:block"
      main.style="display:flex"
      feedback_main.style="display:none"
